@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+</head>
+<body class="background2">
+    <form>
+        <div id="block2">
+            <h1>Hello, <b id="player-name">Player</b>. Let's begin.</h1>
+            <div id="results">
+                <p>Total Correct Answers: 0</p>
+            </div>
+            <form>
+                <div id="choices">
+                    <p id='qNumber'>Question N</p>
+                    <p id="question">Question text should appear here</p>
+                    <div id="b1">
+                        <input type="radio" name="choices" id="A" value="choiceA" />
+                        <label for="A" id="choice-A">Word</label>
+                    </div>
+                    <div id="b2">
+                        <input type="radio" name="choices" id="B" value="choiceB" />
+                        <label for="B" id="choice-B">Visual Studio Code</label>
+                    </div>
+                    <div id="b3">
+                        <input type="radio" name="choices" id="C" value="choiceC" />
+                       <label for="C" id="choice-C">Photoshop</label>
+                    </div>
+                    <div id="b4">
+                        <input type="radio" name="choices" id="D" value="choiceD" />
+                       <label for="D" id="choice-D">Photoshop</label>
+                    </div>
+                </div>
+                <p><button onclick="next(event)" class="btn btn-primary">Next</button></p>
+            </form>
+        </div>
+    </form>
+    <script type="text/javascript" src="my-script.js"></script>
+</body>
+</html>
